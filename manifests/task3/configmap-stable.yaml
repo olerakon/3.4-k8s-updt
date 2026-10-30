@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-stable-html
+  namespace: hw-k8s-updt
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <body>
+      <h1>Stable version</h1>
+    </body>
+    </html>
